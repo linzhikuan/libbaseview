@@ -35,10 +35,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
-// 这里添加下面两行代码。
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
-
 // 定义两个链接，下面会用到。
 def siteUrl = 'https://github.com/linzhikuan/libbaseview' // 项目主页。
 def gitUrl = 'https://github.com/linzhikuan/libbaseview.git' // Git仓库的url。

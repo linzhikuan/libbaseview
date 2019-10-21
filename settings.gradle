@@ -1,2 +1,2 @@
-include ':app', ':libbaseview'
+include ':app', ':libbaseview', ':password', ':inputstyle'
 rootProject.name='MyApp'
